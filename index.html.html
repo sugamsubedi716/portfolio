@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sugam Subedi - Portfolio</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4F46E5',secondary:'#818CF8'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+scroll-behavior: smooth;
+}
+.active-nav {
+color: #4F46E5;
+border-bottom: 2px solid #4F46E5;
+}
+input:focus, textarea:focus {
+outline: none;
+border-color: #4F46E5;
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Navigation Bar -->
+<nav class="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16">
+<div class="flex items-center">
+<div class="text-xl font-['Pacifico'] text-primary">Sugam</div>
+</div>
+<div class="flex items-center space-x-8">
+<a href="#home" class="active-nav px-3 py-2 text-sm font-medium">Home</a>
+<a href="#contact" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition duration-150">Contact</a>
+<a href="#profile" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium transition duration-150">My Profile</a>
+</div>
+</div>
+</div>
+</nav>
+<!-- Home Section -->
+<section id="home" class="pt-24 pb-16 bg-gradient-to-br from-primary/5 via-white to-secondary/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center gap-12">
+<div class="md:w-1/2">
+<div class="relative">
+<div class="absolute -top-6 -left-6 w-20 h-20 bg-primary/10 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-6 -right-6 w-20 h-20 bg-secondary/10 rounded-full blur-2xl"></div>
+<span class="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">Welcome to My Space</span>
+<h1 class="text-5xl font-bold text-gray-900 mb-6 leading-tight">Crafting My Future at <span class="text-primary">Westpoint School</span></h1>
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Hello! I'm Sugam Subedi, a passionate student exploring the realms of knowledge and creativity. Join me on my academic journey filled with achievements, aspirations, and continuous growth.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#profile" class="bg-primary text-white px-8 py-4 rounded-button font-medium shadow-md hover:shadow-lg hover:bg-indigo-600 transition duration-300 !rounded-button whitespace-nowrap flex items-center justify-center">
+<span>View Profile</span>
+<i class="ri-arrow-right-line ml-2"></i>
+</a>
+<a href="#contact" class="bg-white text-primary px-8 py-4 rounded-button font-medium shadow-md hover:shadow-lg border-2 border-primary hover:bg-primary/5 transition duration-300 !rounded-button whitespace-nowrap flex items-center justify-center">
+<i class="ri-mail-line mr-2"></i>
+<span>Contact Me</span>
+</a>
+</div>
+<div class="mt-12 flex items-center gap-6">
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full">
+<i class="ri-graduation-cap-line text-primary"></i>
+</div>
+<div class="ml-3">
+<div class="text-sm text-gray-500">Grade</div>
+<div class="font-semibold">11th Standard</div>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-secondary/10 rounded-full">
+<i class="ri-map-pin-line text-secondary"></i>
+</div>
+<div class="ml-3">
+<div class="text-sm text-gray-500">Location</div>
+<div class="font-semibold">Beni, Nepal</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md:w-1/2 mt-8 md:mt-0">
+<div class="relative">
+<div class="absolute -top-4 -right-4 w-32 h-32 bg-primary/10 rounded-full blur-2xl"></div>
+<div class="absolute -bottom-4 -left-4 w-32 h-32 bg-secondary/10 rounded-full blur-2xl"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition duration-300">
+<img src="https://static.readdy.ai/image/529ac425caa33daeb14a6db8563005e3/05899f9140d47dc267cfeb1af5f050be.jpeg" alt="Westpoint School" class="w-full h-auto object-cover object-top">
+<div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+<p class="text-white text-sm">Westpoint School - Where Excellence Meets Education</p>
+</div>
+</div>
+<div class="mt-6 bg-white rounded-xl p-4 shadow-lg">
+<p class="text-gray-600 leading-relaxed">Nestled in the picturesque town of Beni, Westpoint School stands as a beacon of educational excellence. Our modern facilities and holistic approach to education create the perfect environment for nurturing future leaders.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-16 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold text-center text-gray-900 mb-12">About Westpoint School</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-200">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-book-open-line text-primary ri-lg"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Academic Excellence</h3>
+<p class="text-gray-600">Westpoint School is known for its academic rigor and excellence, providing students with a comprehensive education that prepares them for future success.</p>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-200">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-user-star-line text-primary ri-lg"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Experienced Faculty</h3>
+<p class="text-gray-600">Our school boasts a team of highly qualified and dedicated teachers who are committed to bringing out the best in every student.</p>
+</div>
+<div class="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-200">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-building-4-line text-primary ri-lg"></i>
+</div>
+<h3 class="text-xl font-semibold mb-2">Modern Facilities</h3>
+<p class="text-gray-600">The school is equipped with state-of-the-art facilities including science labs, computer labs, library, and sports facilities to ensure holistic development.</p>
+</div>
+</div>
+<div class="mt-12 bg-gray-50 rounded-lg p-8 shadow-sm">
+<h3 class="text-2xl font-semibold mb-4">Our Location</h3>
+<div class="aspect-video rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('https://static.readdy.ai/image/529ac425caa33daeb14a6db8563005e3/05899f9140d47dc267cfeb1af5f050be.jpeg')"></div>
+<p class="mt-4 text-gray-600">New West Point Boarding Secondary School, which is located  Beni Municipality of Myagdi district, is a respected private educational institution in Nepal's Gandaki Province. Established in 20499, the school offers comprehensive education from pre-primary levels up to the Ten Plus Two (+2) level, with streams in Management and Education, affiliated with the National Examinations Board (NEB) and approved by the Ministry of Education . The institution is known for its commitment to holistic development, providing facilities such as a well-stocked library, science and computer labs, multimedia resources, and a range of extracurricular activities including sports, dance, music, and educational tours . Additionally, the school offers scholarship schemes to support deserving and underprivileged students, ensuring accessible education for all . With its dedicated faculty and emphasis on both academic excellence and personal growth, New West Point Boarding Secondary School continues to be a cornerstone of quality education in the region</p>
+</div>
+</div>
+</section>
+<!-- Profile Section -->
+<section id="profile" class="py-16 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold text-center text-gray-900 mb-12">My Profile</h2>
+<div class="bg-white rounded-lg shadow-md overflow-hidden max-w-3xl mx-auto">
+<div class="md:flex">
+<div class="md:w-1/3 bg-primary/5">
+<div class="p-6">
+<div class="w-40 h-40 rounded-full overflow-hidden mx-auto border-4 border-white shadow-md">
+<img src="https://static.readdy.ai/image/529ac425caa33daeb14a6db8563005e3/d9d0c637a97a479d278b01c015545be3.jpeg" alt="Sugam Subedi" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+<div class="md:w-2/3 p-6">
+<h3 class="text-2xl font-bold text-gray-900 mb-2">Sugam Subedi</h3>
+<div class="space-y-3 text-gray-600">
+<div class="flex items-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+<i class="ri-graduation-cap-line"></i>
+</div>
+<span>Grade: 11</span>
+</div>
+<div class="flex items-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+<i class="ri-map-pin-line"></i>
+</div>
+<span>Address: Beni 8, Campus Chowk</span>
+</div>
+<div class="flex items-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+<i class="ri-school-line"></i>
+</div>
+<span>School: Westpoint School</span>
+</div>
+<div class="flex items-center">
+<div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+<i class="ri-calendar-line"></i>
+</div>
+<span>Joined: 2024</span>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="font-semibold text-gray-900 mb-2">About Me</h4>
+<p class="text-gray-600">I am a dedicated student with a passion for learning and exploring new ideas. My academic interests include mathematics, science, and computer programming. I enjoy participating in extracurricular activities and contributing to my school community.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-white rounded-lg shadow-sm p-6">
+<h3 class="text-xl font-semibold mb-4 flex items-center">
+<div class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-2">
+<i class="ri-trophy-line text-primary"></i>
+</div>
+Achievements
+</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Top performer in Science Exhibition 2024</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Winner of Inter-school Mathematics Competition</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Class Representative for two consecutive years</span>
+</li>
+</ul>
+</div>
+<div class="bg-white rounded-lg shadow-sm p-6">
+<h3 class="text-xl font-semibold mb-4 flex items-center">
+<div class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-2">
+<i class="ri-heart-line text-primary"></i>
+</div>
+Interests & Hobbies
+</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Computer Programming and Web Development</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Playing Chess and Strategic Games</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center text-primary mt-0.5 mr-2">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Reading Books on Science and Technology</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Contact Me</h2>
+<div class="max-w-3xl mx-auto bg-gray-50 rounded-lg shadow-sm p-8">
+<form class="space-y-6">
+<div>
+<label for="fullName" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+<input type="text" id="fullName" name="fullName" class="w-full px-4 py-3 bg-white border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 transition duration-150" placeholder="Enter your full name" required>
+</div>
+<div>
+<label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+<input type="email" id="email" name="email" class="w-full px-4 py-3 bg-white border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 transition duration-150" placeholder="Enter your email address" required>
+</div>
+<div>
+<label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Contact Number</label>
+<input type="tel" id="phone" name="phone" class="w-full px-4 py-3 bg-white border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 transition duration-150" placeholder="Enter your contact number" required>
+</div>
+<div>
+<label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+<textarea id="message" name="message" rows="4" class="w-full px-4 py-3 bg-white border border-gray-300 rounded focus:ring-2 focus:ring-primary/20 transition duration-150" placeholder="Write your message here..."></textarea>
+</div>
+<div>
+<button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-button font-medium shadow-sm hover:bg-indigo-600 transition duration-150 !rounded-button whitespace-nowrap">Send Message</button>
+</div>
+</form>
+<div class="mt-10 pt-8 border-t border-gray-200">
+<h3 class="text-lg font-semibold mb-4">Other Ways to Reach Me</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-3">
+<i class="ri-mail-line text-primary"></i>
+</div>
+<div>
+<div class="text-sm text-gray-500">Email</div>
+<div class="text-gray-700">sugamsubedi716@gmail.com</div>
+</div>
+</div>
+<div class="flex items-center">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-3">
+<i class="ri-phone-line text-primary"></i>
+</div>
+<div>
+<div class="text-sm text-gray-500">Phone</div>
+<div class="text-gray-700">+977 9806189354</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<div class="mb-4 md:mb-0">
+<div class="text-xl font-['Pacifico']">Sugam Subedi</div>
+<p class="text-gray-400 mt-1">Student at Westpoint School</p>
+</div>
+<div class="flex space-x-6">
+<a href="#" class="text-gray-400 hover:text-white transition duration-150">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-facebook-fill"></i>
+</div>
+</a>
+<a href="#" class="text-gray-400 hover:text-white transition duration-150">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-instagram-line"></i>
+</div>
+</a>
+<a href="#" class="text-gray-400 hover:text-white transition duration-150">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-linkedin-fill"></i>
+</div>
+</a>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-800 text-center text-gray-400 text-sm">
+<p>&copy; 2025 Sugam Subedi. All rights reserved.</p>
+<p class="mt-1">Created on May 8, 2025</p>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Navigation active state
+const navLinks = document.querySelectorAll('nav a');
+const sections = document.querySelectorAll('section');
+window.addEventListener('scroll', function() {
+let current = '';
+sections.forEach(section => {
+const sectionTop = section.offsetTop;
+const sectionHeight = section.clientHeight;
+if (pageYOffset >= (sectionTop - 200)) {
+current = section.getAttribute('id');
+}
+});
+navLinks.forEach(link => {
+link.classList.remove('active-nav');
+if (link.getAttribute('href').substring(1) === current) {
+link.classList.add('active-nav');
+}
+});
+});
+// Smooth scrolling
+navLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetSection = document.querySelector(targetId);
+window.scrollTo({
+top: targetSection.offsetTop - 80,
+behavior: 'smooth'
+});
+});
+});
+});
+</script>
+</body>
+</html>
